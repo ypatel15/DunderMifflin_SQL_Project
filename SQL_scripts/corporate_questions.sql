@@ -109,7 +109,7 @@ ORDER BY total_revenue_in_USD$ DESC;
 -- This creates a view for easy access to sales performance metrics
 
 
---"Please send us the list of employees with their respective departments whose salary ranges from 50,000 to 60,000
+--Please send us the list of employees with their respective departments whose salary ranges from 50,000 to 60,000
 SELECT employee_name, department, salary
 FROM employees
 WHERE salary BETWEEN 50000 AND 60000
@@ -240,7 +240,6 @@ WHERE EXISTS (
         WHERE s2.branch_id = e.branch_id
     )
 );
--- This query identifies top-performing employees within each branch
 
 
 			--- COMMON TABLE EXPRESSIONS ---
