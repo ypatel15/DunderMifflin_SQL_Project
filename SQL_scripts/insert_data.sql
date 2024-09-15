@@ -1,15 +1,15 @@
--- Insert data into Branch table
+-- Inserting data into Branch table
 INSERT INTO branches(branch_id,branch_name,manager_name) VALUES
 ('B101','Scranton','Michael Scott'),
 ('B201','Stamford','Josh Porter');
 
--- Insert data into Products table
+-- Inserting data into Products table
 INSERT INTO Products (product_id, product_name, price) VALUES
 ('P101', 'Copy Paper (500 Sheets)', 7.99),
 ('P102', 'Printer Ink Cartridge', 29.99),
 ('P103', 'Office Notebooks (Pack of 5)', 12.49);
 
--- Insert data into Employees table
+-- Inserting data into Employees table
 INSERT INTO Employees (employee_id, employee_name, branch_id, department, hire_date, salary) VALUES
 ('E101', 'Jim Halpert','B101','Sales', '2005-05-01', 50000.00),
 ('E102', 'Pam Beesly','B101','Admin', '2005-05-01', 35000.00),
@@ -29,7 +29,7 @@ INSERT INTO Employees (employee_id, employee_name, branch_id, department, hire_d
 ('E116', 'Creed Bratton','B101','Quality Assurance', '2005-03-01', 47000.00),
 ('E117','Josh Porter','B101','Management', '2004-02-01',57000.00); 
 
--- Insert data into Sales table
+-- Inserting data into Sales table
 INSERT INTO Sales (sale_id, employee_id,product_id, sale_amount, sale_date, branch_id) VALUES
 ('S101','E101','P101', 39950.23, '2007-01-05','B101'),
 ('S102','E103','P102', 30899.70,  '2007-02-10','B101'),
