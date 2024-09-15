@@ -4,7 +4,7 @@ This repository contains SQL scripts for a project simulating data analysis at t
 
 ## Project Structure
 
-- `sql_scripts/`
+- `SQL_scripts/`
   - `tables.sql`: SQL script to create tables for employees, branches, products, and sales.
   - `insert_data.sql`: SQL script to insert sample data into the tables.
   - `corporate_questions.sql`: SQL script answering various business questions using the provided data.
