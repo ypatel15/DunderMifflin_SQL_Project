@@ -1,4 +1,4 @@
--- Creating table and Inserting data
+-- Creating tables
 
 -- Branch Table
 CREATE TABLE branches (
